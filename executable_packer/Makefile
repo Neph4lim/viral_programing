@@ -31,3 +31,9 @@ all : $(NAME)
 
 $(NAME): $(OBJ)
 	$(CC) $(LDFLAGS) $(CFLAGS) $(INCFLAGS) $(OBJ) -o $(NAME)
+
+clean :
+	rm -rf $(OBJ)
+
+fclean : clean
+	rm -rf $(NAME)
