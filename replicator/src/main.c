@@ -20,7 +20,7 @@ void calling()
 "       putchar(34);",
 "       fputs(sources[i], stdout);",
 "       putchar(34);",
-"       pytchar(44);",
+"       putchar(44);",
 "       putchar(10);",
 "   }",
 "   for (int i = 6; i < 35; i++)",
